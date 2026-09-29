@@ -19,3 +19,6 @@ This project implements and analyzes four classic divide-and-conquer algorithms 
 * **Why does smaller-first recursion help QuickSort?** It guarantees that the recursion stack depth never exceeds $O(\log n)$[cite: 1], preventing `StackOverflowError` on heavily skewed data distributions.
 * **Why does Median-of-Medians guarantee O(n)?** By guaranteeing the pivot is greater than at least 30% of the elements and less than at least 30%, the recurrence tree is strictly bounded from devolving into an $O(n^2)$ linear tree[cite: 1].
 * **Why is divide-and-conquer Closest Pair faster?** Instead of checking $n(n-1)/2$ combinations ($O(n^2)$), the strip boundary condition limits point comparisons across the divide line to a maximum of 7 points[cite: 1].
+---
+
+**P.S.** While this README documentation and analytical write-up were structured and drafted with the assistance of AI, all Java source code, algorithmic implementations, and experiment benchmarks were written entirely by me.
